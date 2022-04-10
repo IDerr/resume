@@ -1,7 +1,9 @@
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  <ChakraProvider>
+    <Component {...pageProps} />
+  </ChakraProvider>
 }
 
 export default MyApp
