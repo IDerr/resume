@@ -1,2 +1,2 @@
 # resume
-My resume with Nuxt
+My resume with Next
